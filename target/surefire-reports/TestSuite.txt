@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.504 s <<< FAILURE! - in TestSuite
+DeleteValidCustID(testcases.DeleteCustomerTest)  Time elapsed: 0.627 s  <<< FAILURE!
+java.lang.AssertionError: invalid status code received expected [200] but found [404]
+	at testcases.DeleteCustomerTest.DeleteValidCustID(DeleteCustomerTest.java:27)
+
